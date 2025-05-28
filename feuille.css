@@ -1,0 +1,127 @@
+/*-- EN GROS --*/
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+ol {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+a {
+    transition: color 0,3 ease;
+    color:white;
+}
+
+a:hover {
+    color:whitesmoke;
+}
+
+/*-- LES SECTIONS --*/
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family:cursive;
+}
+
+section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+section img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+p a {
+    transition: color 0,3 ease;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+p a:hover {
+    color:whitesmoke;
+}
+
+ul, ol {
+    padding-left: 20px; 
+    font-size: 16px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px; 
+}
+
+pre.code {
+    background-color:honeydew;
+    color: red;
+
+}
+
+/*-- LES VACANCES --*/
+
+#s5 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+/*-- TABLEAUX EXTERNES --*/
+
+.outer-table {
+    width: 100%;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+.inner-table {
+    width: 100%;
+    background-color: silver;
+    border: 3px solid black;
+    margin-bottom: 7px;
+    padding: 3px;
+}
+
+.inner-table tr {
+    margin-bottom: none;
+}
+
+.inner-table td {
+    padding: 20px;
+}
+
+
+

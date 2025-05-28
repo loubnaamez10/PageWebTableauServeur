@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Débuts En Programmation Web</title>
+    <link rel="stylesheet" href="feuille.css">
+</head>
+<body>
+    <ol style="color: white;">
+    <li><p><a href="#s1"><strong>Informations Personnelles du Candidat</strong></a></p></li>
+    <li><p><a href="#s2"><strong>Cursus de l'étudiant</strong></a></p></li>
+    <li><p><a href="#s3"><strong>Langages de Programmation maitrisés</strong></a></p></li>
+    <li><p><a href="#s4"><strong>Exercice : Programme en C</strong></a></p></li>
+    <li><p><a href="#s5"><strong>Nos vacances de l'année</strong></a></p></li>
+    </ol>
+
+    <table class="outer-table">
+        <tr>
+            <td>
+                <table class="inner-table">
+                    <tr>
+                        <td>
+                            <section id="s1">
+                                <h1>Informations Personnelles du Candidat</h1>
+                                <p><strong>Nom:</strong> MEZIANE</p>
+                                <p><strong>Prénom:</strong> Lina Loubna</p>
+                                <p><strong>Date de naissance:</strong> 25/10/2005</p>
+                                <p><strong>Adresse:</strong> Gué de Constantine Alger</p>
+                                <p><strong>Adresse email:</strong> <a href="mailto:admin@gmail.com">lina.loubnaa@gmail.com</a></p>
+                                <p><strong>Num Téléphone:</strong> 0774931953</p>
+                                <p><strong>Situation Familiale:</strong> Célibataire</p>
+                                <hr class="green-bar">
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="inner-table">
+                    <tr>
+                        <td>
+                            <section id="s2">
+                                <h1>Cursus de l'étudiant</h1>
+                                <ol>
+                                    <li><strong>Cycle primaire:</strong>
+                                    <ul>
+                                        <li><em>Ecole:</em>Allal El Mechri</li>
+                                        <li><em>Année de première inscription:</em>2010</li>
+                                    </ul></li>
+                                    <li><strong>Cycle moyen:</strong>
+                                        <ul>
+                                           <li><em>CEM:</em>Mohamed Taher Djebara</li>
+                                           <li><em>Année de première inscription</em>2016</li>
+                                        </ul></li>
+                                    <li><strong>Cycle secondaire:</strong>
+                                        <ul>
+                                            <li><em>Lycée:</em>Bahia Haydour</li>
+                                            <li><em>Année de première inscription:</em> 2020</li>
+                                            <li><em>Bac:</em> Mathématique</li>
+                                        </ul></li>
+                                    <li><strong>Cycle universitaire:</strong>
+                                        <ul>
+                                            <li><em>Université:</em> USTHB</li>
+                                            <li><em>Année de première inscription:</em> 2023</li>
+                                        </ul></li>  
+                                </ol>
+                                <hr class="green-bar">
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="inner-table">
+                    <tr>
+                        <td>
+                            <section id="s3">
+                                <h1>Langages de Programmation maitrisés</h1>
+                                <ul>
+                                    <li><strong><img src="Images/C.png" alt="Language C">C</strong></li>
+                                    <li><strong><img src="Images/JAVA.png" alt="Language Java">Java</strong></li>
+                                    <li><strong><img src="Images/HTML.png" alt="HTML">Html</strong></li>
+                                    <li><strong><img src="Images/CSS.png" alt="CSS">Css</strong></li>
+                                    <li><strong><img src="Images/PYTHON.png" alt="PYTHON">Python</strong></li>
+                                </ul>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="inner-table">
+                    <tr>
+                        <td> <section id="s4">
+                            <h1>Exercice : Programme en C</h1>
+                            <pre class="code">
+                                #include <stdio.h>
+                    
+                                    int main() {
+                                        int matrix[3][3], sum = 0;
+                                        
+                                        // Remplissage de la matrice
+                                        for(int i = 0; i < 3; i++) {
+                                            for(int j = 0; j < 3; j++) {
+                                                printf("Entrez un élément: ");
+                                                scanf("%d", &matrix[i][j]);
+                                                if(matrix[i][j] > 0) sum += matrix[i][j];
+                                            }
+                                        }
+                                    
+                                        printf("La somme des éléments positifs est: %d", sum);
+                                        return 0;
+                                    }
+                            </pre>
+                            <hr class="green-bar">
+                        </section></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="inner-table">
+                    <tr>
+                        <td>
+                            <section id="s5">
+                                <h1>Nos vacances de l'année</h1>
+                                <ul>
+                                    <li><strong><a href="Vacances.html#Algérie"><img src="Images/Algérie.jpg" alt="Algérie"></a>Algérie</strong></li>
+                                    <li><strong><a href="Vacances.html#France"><img src="Images/France.jpg" alt="France"></a>France</strong></li>
+                                    <li><strong><a href="Vacances.html#Espagne"><img src="Images/Espagne.jpg" alt="Espagne"></a>Espagne</strong></li>
+                                    <li><strong><a href="Vacances.html#Italie"><img src="Images/Italie.jpg" alt="Italie"></a>Italie</strong></li>
+                                <hr class="green-bar">
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+
+     <!--Retour au début de la page-->
+     <p><a href="#top"><strong>REVENIR AU DEBUT DE LA PAGE</strong></a></p>
+     
+</body>
+</html>
